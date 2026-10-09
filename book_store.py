@@ -20,29 +20,28 @@ class Book:
 
 
 # Create three book instances
+
+# Create three book instances
 book1 = Book(
-    "The Hobbit",
-    "J.R.R. Tolkien",
-    "9780547928227",
-    1937,
+    "Harry Potter and the Philosopher's Stone",
+    "J.K. Rowling",
+    "9780747532699",
+    1997,
 )
 
 book2 = Book(
-    "The Secret Garden",
-    "Frances Hodgson Burnett",
-    "9780141321068",
-    1911,
+    "The Alchemist",
+    "Paulo Coelho",
+    "9780061122415",
+    1988,
 )
 
 book3 = Book(
-    "Wonder",
-    "R.J. Palacio",
-    "9780375869020",
+    "A Man Called Ove",
+    "Fredrik Backman",
+    "9781476738024",
     2012,
 )
-
-
-# Display each book's summary and age
 for book in [book1, book2, book3]:
     print(book.get_summary())
     print(f"Age: {book.get_age()} years")
